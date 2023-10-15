@@ -2,9 +2,6 @@ const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 
 var parado = false;
-var rochasPegas = 0;
-
-const textPegas = `Você coletou ${rochasPegas} rochas`;
 
 //Cor gradiante para fundo
 const gradiente = ctx.createLinearGradient(0, 0, 1, 1000);
@@ -48,7 +45,6 @@ function animar(){
     if(nave.x >= rocha.x - 80 && nave.x <= rocha.x + 80 &&
         nave.y >= rocha.y - 80 && nave.y <= rocha.y + 80){
         rocha.aleatorio();
-        rochasPegas++;
     }
 
     requestAnimationFrame(animar);
