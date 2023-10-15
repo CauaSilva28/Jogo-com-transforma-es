@@ -42,8 +42,8 @@ function animar(){
     }
 
     // Verificação de colisão entre a nave e a rocha
-    if(nave.x >= rocha.x - 80 && nave.x <= rocha.x + 80 &&
-        nave.y >= rocha.y - 80 && nave.y <= rocha.y + 80){
+    if(nave.x >= rocha.x - 60 && nave.x <= rocha.x + 60 &&
+        nave.y >= rocha.y - 60 && nave.y <= rocha.y + 60){
         rocha.aleatorio();
     }
 
