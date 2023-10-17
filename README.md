@@ -19,3 +19,4 @@ O transform() utiliza matriz para transformar um objeto. Na matriz pode-se alter
 
 # ClipPath
 
+O ClipPath() é como criar o mesmo objeto duas vezes mas utilizando essa função, fazendo um tipo de recorte podendo criar uma nova forma. Segue o exemplo 
