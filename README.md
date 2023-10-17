@@ -11,4 +11,11 @@ O rotate() é um método que faz com que o objeto gire em torno do seu proprio e
 
 # Scale 
 
-O scale() é um método que modifica a escala de um objeto desejado multiplicando seu valor inicial. A escala do objeto pode ser alterada tanto em x(horizontalmente) quanto em y (verticalmente) 
+O scale() é um método que modifica a escala de um objeto desejado multiplicando seu valor inicial. A escala do objeto pode ser alterada tanto em x(horizontalmente) quanto em y (verticalmente).
+
+# Transform
+
+O transform() utiliza matriz para transformar um objeto. Na matriz pode-se alterar a posição (x, y) como um translate(), a inclinação vertical e horizontal e o seu tamanho como o scale().
+
+# ClipPath
+
