@@ -23,7 +23,7 @@ https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/b46fb9bc
 ## Resultado do Scale
 https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/d5d120a0-1e0c-4622-ba7a-9e10de6d9f27
 
-<p>No final do método "mover()" da nave foi adicionado o código ctx.setTransform(1,0,0,1,0,0) que é responsável por redefinir a transformação do objeto para seu estado original, assim fazendo com que o "translate()", "rotate()" e "scale()" da nave não altere outros objetos.</p>;
+<p>No final do método "mover()" da nave foi adicionado o código ctx.setTransform(1,0,0,1,0,0) que é responsável por redefinir a transformação do objeto para seu estado original, assim fazendo com que o "translate()", "rotate()" e "scale()" da nave não altere outros objetos.</p>
 
 # Transform
 <p>O transform() utiliza matriz para transformar um objeto. Na matriz pode-se alterar a posição (x, y) como um translate(), a inclinação vertical e horizontal e o seu tamanho como o scale().</p>
@@ -37,11 +37,11 @@ https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/d5d120a0
 ## Resultado do transform e colisão
 https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/07a4e7c3-0397-45d4-86c4-c1f1a0085ff1
 
-# ClipPath
-<p>Por fim, o ClipPath() cria uma máscara de recorte(no formato que você criar) por cima de outra forma. Tudo que for colocado após o código "ctx.clip()", será visível apenas dentro da área da máscara de recorte no formato desenhado (no nosso caso foi um círculo).</p>
+# Clipping Path
+<p>Por fim, o "Clipping Path" cria uma máscara de recorte(no formato que você criar) por cima de outra forma. Tudo que for colocado após o código "ctx.clip()", será visível apenas dentro da área da máscara de recorte no formato desenhado (no nosso caso foi um círculo).</p>
 <img src='img/clipimg.jpg' />
 <p>Após o código "ctx.clip()" colocamos apenas um retângulo com cor gradiante nos tons de roxo para simular o espaço. A máscara de recorte é um circulo que ficará em volta da nave tendo as mesmas posições que ela para andarem juntas. Colorimos o background do canvas de preto para parecer que a máscara de corte em volta da nave seja a luz dela, assim revelando o espaço de acordo com a posição da nave.</p>
-<p>O resultado do ClipPath já foi mostrado em todos os vídeos anteriores.</p>
+<p>O resultado do Clipping Path já foi mostrado em todos os vídeos anteriores.</p>
 
 # Comandos do git utilizados
 <img src='img/git.jpg' />
