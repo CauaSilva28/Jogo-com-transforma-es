@@ -40,7 +40,7 @@ https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/07a4e7c3
 # ClipPath
 <p>Por fim, o ClipPath() cria uma máscara de recorte(no formato que você criar) por cima de outra forma. Tudo que for colocado após o código "ctx.clip()", será visível apenas dentro da área da máscara de recorte no formato desenhado (no nosso caso foi um círculo).</p>
 <img src='img/clipimg.jpg' />
-<p>Após o código "ctx.clip()" colocamos apenas um retângulo com cor gradiante nos tons de roxo para simular o espaço. A máscara de recorte é um circulo que ficará em volta da nave tendo as mesmas posições que ela para andarem juntas. Colorimos o background do canvas de preto para parecer que a máscara de corte em volta da nave seja a luz dessa dela, assim revelando o espaço de acordo com a posição da nave.</p>
+<p>Após o código "ctx.clip()" colocamos apenas um retângulo com cor gradiante nos tons de roxo para simular o espaço. A máscara de recorte é um circulo que ficará em volta da nave tendo as mesmas posições que ela para andarem juntas. Colorimos o background do canvas de preto para parecer que a máscara de corte em volta da nave seja a luz dela, assim revelando o espaço de acordo com a posição da nave.</p>
 <p>O resultado do ClipPath já foi mostrado em todos os vídeos anteriores.</p>
 
 # Comandos do git utilizados
