@@ -13,6 +13,7 @@
 <img src='img/rotateimg.jpg' />
 
 ## Resultado do Rotate com o Translate
+https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/b46fb9bc-9778-4321-9276-248d466333b2
 
 # Scale 
 <p>O scale() é um método que modifica a escala de um objeto desejado multiplicando seu valor inicial pelo número adicionado dentro do código "ctx.scale(n1,n2)", sendo o primeiro número(n1) o valor que vai multiplicar a escala no eixo x (horizontalmente) e o segundo número(n2) o valor que vai multiplicar a escala no eixo y(verticalmente). </p>
@@ -20,6 +21,7 @@
 <p>Foram adicionadas as mesmas variaveis no eixo x e y do "scale()" para que a nave cresça e diminuá proporcionalmente. Ao clicar na tecla "Q", a nave irá diminuir até certo tamanho, e ao clicar na tecla "E", a nave irá aumentar até certo tamanho.</p>
 
 ## Resultado do Scale
+https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/d5d120a0-1e0c-4622-ba7a-9e10de6d9f27
 
 <p>No final do método "mover()" da nave foi adicionado o código ctx.setTransform(1,0,0,1,0,0) que é responsável por redefinir a transformação do objeto para seu estado original, assim fazendo com que o "translate()", "rotate()" e "scale()" da nave não altere outros objetos.</p>;
 
@@ -33,6 +35,7 @@
 <img src='img/colisao.jpg' />
 
 ## Resultado do transform e colisão
+https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/07a4e7c3-0397-45d4-86c4-c1f1a0085ff1
 
 # ClipPath
 <p>Por fim, o ClipPath() cria uma máscara de recorte(no formato que você criar) por cima de outra forma. Tudo que for colocado após o código "ctx.clip()", será visível apenas dentro da área da máscara de recorte no formato desenhado (no nosso caso foi um círculo).</p>
