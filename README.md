@@ -45,3 +45,6 @@ https://github.com/CauaSilva28/cena-com-transformacoes/assets/127631052/9ea75e6b
 
 # Comandos do git utilizados
 <img src='img/git.jpg' />
+
+# Diagrama de classes
+<img src='img/diagrama.jpg' />
